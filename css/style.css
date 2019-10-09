@@ -4,7 +4,7 @@ nav li {
 	font-weight: 400;
 	font-style: italic;
 	font-color:#FFF;
-	font-size:24px;
+	font-size:20px;
 }
 
 a {
@@ -63,14 +63,25 @@ h2 {
 }
 
 footer {
-	font-family:"Abril Text",serf;
+	font-family:"Abril Text",serif;
 	font-weight:400;
 	font-style:italic;
-	font-size:18px;
+	font-size:14px;
 	text-align:center;
 	background-color:#003B45;
 	color:#FFF;
-	min-height:68px;
-	padding-top:25px;
+	height:68px;
+	width:100%;
+	margin:auto;
 }
 
+p {
+	font-family:"Abril Text", serif;
+	font-weight:400
+	font-size:14px;
+}
+
+.old-fashioned {
+	grid-template-columns:50% 50%;
+	grid-template-rows:100%;
+}
