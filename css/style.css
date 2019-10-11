@@ -85,10 +85,19 @@ p {
 	font-size:14px;
 }
 
-.fashioned {
+.columns {
+	width:100%;
 	column-count:2;
 	column-gap:43px;
-	column-width:1fr;
+	column-width:50%;
+	column-span:1;
+}
+
+.fashion {
+	background-image:url(./woodgrain.jpg);
+	background-repeat:no-repeat;
+	background-position:left;
+	background-size:cover;
 }
 
 body {
