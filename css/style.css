@@ -102,7 +102,7 @@ p {
 }
 
 .fashion {
-	background-image:url(./woodgrain.jpg);
+	background-image:url(./woodgrain.png);
 	background-repeat:no-repeat;
 	background-position:left;
 	background-size:cover;
@@ -112,7 +112,7 @@ p {
 }
 
 .sling {
-	background-image:url(./rainbowmetal.jpg);
+	background-image:url(./rainbowmetal.png);
 	background-repeat:no-repeat;
 	background-position:right;
 	background-size:cover;
@@ -135,18 +135,16 @@ aside {
 	padding-bottom:17px;
 	padding-left:8px;
 	padding-right:8px;
-	margin-right:470px;
+	max-width:246px;
+	min-width:206px;
 }
 
-img {
+.outlined-drink {
 	border:7px solid;
 	border-color:#2CADAD;
 	padding:16px;
 }
 
 .drink {
-	max-width:413px;
-	max-height:478px;
-	min-width:344px;
-	min-height:398px;
+
 }
