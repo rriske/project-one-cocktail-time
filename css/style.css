@@ -19,6 +19,7 @@ a:hover {
 nav ul {
 	list-style-type:none;
 	background-color:#003B45;
+	margin-right:100px;
 }
 
 header {
@@ -27,6 +28,10 @@ header {
 	display:grid;
 	padding-left:100px;
 	padding-right:100px;
+	display: grid;
+	grid-template-columns: 40% 60%;
+	margin-top:54px;
+	padding-top:27px
 }
 
 nav {
@@ -91,6 +96,8 @@ p {
 	font-family:"Abril Text", serif;
 	font-weight:400
 	font-size:14px;
+	line-height:18px;
+	letter-spacing:0.5px;
 }
 
 .columns {
@@ -143,8 +150,4 @@ aside {
 	border:7px solid;
 	border-color:#2CADAD;
 	padding:16px;
-}
-
-.drink {
-
 }
