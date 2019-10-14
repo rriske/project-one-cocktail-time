@@ -30,7 +30,7 @@ header {
 	padding-right:100px;
 	display: grid;
 	grid-template-columns: 40% 60%;
-	margin-top:54px;
+	margin-top:40px;
 	padding-top:27px
 }
 
@@ -55,11 +55,24 @@ h2 {
 .index {
 	background-color:#003B45;
 	background-image:url(./indexbg.png);
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:266px;
 }
 
 .index h1 {
 	text-align:center;
 	font-size:72px;
+}
+
+.index ul {
+	text-align:left;
+	line-height:46px;
+	margin:auto;
+}
+
+.index a {
+	font-size:30px;
 }
 
 @font-face {
@@ -76,9 +89,9 @@ footer {
 	text-align:center;
 	background-color:#003B45;
 	color:#FFF;
-	height:68px;
 	width:100%;
 	margin:auto;
+	padding:30px 0;
 }
 
 h3 {
@@ -100,7 +113,7 @@ p {
 	letter-spacing:0.5px;
 }
 
-.columns {
+main {
 	width:100%;
 	column-count:2;
 	column-gap:43px;
