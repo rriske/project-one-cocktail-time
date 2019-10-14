@@ -30,7 +30,7 @@ header {
 	padding-right:100px;
 	display: grid;
 	grid-template-columns: 40% 60%;
-	margin-top:40px;
+	margin-top:30px;
 	padding-top:27px
 }
 
@@ -54,10 +54,11 @@ h2 {
 
 .index {
 	background-color:#003B45;
-	background-image:url(./indexbg.png);
+	background-image:url(../images/indexbg.png);
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:266px;
+	text-align:center;
 }
 
 .index h1 {
@@ -68,11 +69,15 @@ h2 {
 .index ul {
 	text-align:left;
 	line-height:46px;
-	margin:auto;
 }
 
 .index a {
 	font-size:30px;
+}
+
+.index header {
+	display:block;
+	padding-bottom:20px;
 }
 
 @font-face {
@@ -116,13 +121,14 @@ p {
 main {
 	width:100%;
 	column-count:2;
-	column-gap:43px;
+	column-gap:40px;
 	column-width:1fr;
 	column-span:1;
+	margin-right:100px;
 }
 
 .fashion {
-	background-image:url(./woodgrain.png);
+	background-image:url(../images/woodgrain.png);
 	background-repeat:no-repeat;
 	background-position:left;
 	background-size:cover;
@@ -131,8 +137,12 @@ main {
 	padding-right:134px;
 }
 
+.right h1 {
+	text-align:right;
+}
+
 .sling {
-	background-image:url(./rainbowmetal.png);
+	background-image:url(../images/rainbowmetal.png);
 	background-repeat:no-repeat;
 	background-position:right;
 	background-size:cover;
@@ -163,4 +173,66 @@ aside {
 	border:7px solid;
 	border-color:#2CADAD;
 	padding:16px;
+}
+
+.columns {
+	display:grid;
+	grid-template-columns: 19% 27% 54%;
+	grid-gap:40px;
+	padding-left:100px;
+}
+
+.columns-dai {
+	display:grid;
+	grid-template-columns: 600px 2fr;
+	grid-gap:40px;
+	padding-left:100px;
+}
+
+.columns-dai p {
+	padding-top:55px;
+}
+
+.columns-dai h2 {
+	padding-top:30px
+}
+
+.columns-car {
+	display:grid;
+	grid-template-columns: 1fr 1fr 2fr;
+	grid-gap:40px;
+	padding-left:100px;
+	margin-right:100px;
+	align-content:right;
+}
+
+.columns-fashioned {
+	display:grid;
+	grid-template-columns: 50% 50%;
+	grid-gap:45px;
+	margin-right:100px;
+}
+
+.columns h2 {
+	column-span:all;
+}
+
+.columns p {
+	padding-top:135px;
+}
+
+.shaker {
+	padding-top:17px;
+	padding-bottom:17px;
+	padding-left:8px;
+	padding-right:8px;
+	max-width:246px;
+	min-width:206px;
+	border: 7px solid;
+	border-color:#2CADAD;
+}
+
+.sidecar {
+	border-left:7px solid;
+	border-color:#2CADAD;
 }
