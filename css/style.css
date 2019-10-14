@@ -55,8 +55,7 @@ h2 {
 .index {
 	background-color:#003B45;
 	background-image:url(../images/indexbg.png);
-	margin-left:auto;
-	margin-right:auto;
+	margin:auto;
 	margin-top:266px;
 	text-align:center;
 }
@@ -213,6 +212,11 @@ aside {
 	margin-right:100px;
 }
 
+.columns-fashioned h2 {
+	padding-top:30px;
+	padding-bottom:55px;
+}
+
 .columns h2 {
 	column-span:all;
 }
@@ -235,4 +239,8 @@ aside {
 .sidecar {
 	border-left:7px solid;
 	border-color:#2CADAD;
+}
+
+.recipe {
+	float:left;
 }
