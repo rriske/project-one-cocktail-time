@@ -27,7 +27,7 @@ header {
 	min-height:80px;
 	display:grid;
 	padding-left:100px;
-	padding-right:100px;
+	padding-right:90px;
 	display: grid;
 	grid-template-columns: 40% 60%;
 	margin-top:30px;
@@ -42,6 +42,8 @@ h2 {
 	font-family:"Blazeface", serif;
 	color:#000;
 	font-size:72px;
+	-webkit-column-span: all;
+    column-span: all;
 }
 
 .logo-style {
@@ -117,15 +119,6 @@ p {
 	letter-spacing:0.5px;
 }
 
-main {
-	width:100%;
-	column-count:2;
-	column-gap:40px;
-	column-width:1fr;
-	column-span:1;
-	margin-right:100px;
-}
-
 .fashion {
 	background-image:url(../images/woodgrain.png);
 	background-repeat:no-repeat;
@@ -176,16 +169,26 @@ aside {
 
 .columns {
 	display:grid;
-	grid-template-columns: 19% 27% 54%;
-	grid-gap:40px;
-	padding-left:100px;
+	grid-template-columns: 20% 26% 54%;
+	grid-gap:30px;
+	padding-left:90px;
+	width:100%;
+}
+
+.columns h2 {
+	padding-top:30px;
+	padding-bottom:55px;
+}
+
+.columns p {
+	padding-top:85px;
 }
 
 .columns-dai {
 	display:grid;
 	grid-template-columns: 600px 2fr;
 	grid-gap:40px;
-	padding-left:100px;
+	padding-left:90px;
 }
 
 .columns-dai p {
@@ -200,9 +203,14 @@ aside {
 	display:grid;
 	grid-template-columns: 1fr 1fr 2fr;
 	grid-gap:40px;
-	padding-left:100px;
+	padding-left:90px;
 	margin-right:100px;
 	align-content:right;
+}
+
+.columns-car h2 {
+	padding-top:30px;
+	padding-bottom:55px;
 }
 
 .columns-fashioned {
@@ -215,14 +223,6 @@ aside {
 .columns-fashioned h2 {
 	padding-top:30px;
 	padding-bottom:55px;
-}
-
-.columns h2 {
-	column-span:all;
-}
-
-.columns p {
-	padding-top:135px;
 }
 
 .shaker {
@@ -243,4 +243,8 @@ aside {
 
 .recipe {
 	float:left;
+}
+
+.recipe-right {
+	float:right;
 }
