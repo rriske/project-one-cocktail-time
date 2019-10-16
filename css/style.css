@@ -136,7 +136,7 @@ p {
 	padding-right:134px;
 }
 
-.right h1 {
+.right {
 	text-align:right;
 }
 
@@ -148,6 +148,7 @@ p {
 	padding-left:100px;
 	padding-top:71px;
 	padding-right:100px;
+	padding-bottom:71px;
 }
 
 .fashion {
@@ -158,6 +159,7 @@ p {
 	padding-left:100px;
 	padding-top:71px;
 	padding-right:100px;
+	padding-bottom:71px;
 }
 
 ul {
@@ -242,6 +244,7 @@ aside {
 	display:grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap:40px;
+	margin-right:90px;
 }
 
 .columns-fashioned h2 {
