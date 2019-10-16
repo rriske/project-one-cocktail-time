@@ -192,10 +192,7 @@ aside {
 .columns h2 {
 	padding-top:30px;
 	padding-bottom:55px;
-}
-
-.columns p {
-	padding-top:85px;
+	grid-column: 1 / -1;
 }
 
 .columns-dai {
