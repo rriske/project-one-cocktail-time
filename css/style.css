@@ -20,24 +20,20 @@ nav ul {
 	list-style-type:none;
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-column-gap:75px;
+	grid-column-gap:45px;
 	column-span:all;
-	padding:27px 0;
+	padding:36px 0;
+	margin-right:90px;
 }
 
 header {
 	background-color:#003B45;
-	display:grid;
 	padding-left:90px;
 	display: grid;
 	grid-template-columns: 40% 60%;
 	margin-top:30px;
 	padding:27px
-	margin:auto;
-}
-
-nav {
-	display:inline-block;
+	height:80px;
 }
 
 h2 {
@@ -183,10 +179,9 @@ aside {
 
 .columns {
 	display:grid;
-	grid-template-columns: 20% 26% 54%;
+	grid-template-columns: 1fr 1.5fr 2fr;
 	grid-gap:30px;
 	padding-left:90px;
-	width:100%;
 }
 
 .columns h2 {
@@ -226,9 +221,8 @@ aside {
 
 .columns-fashioned {
 	display:grid;
-	grid-template-columns: 50% 50%;
-	grid-gap:45px;
-	margin-right:100px;
+	grid-template-columns: 1fr 1fr;
+	grid-gap:40px;
 }
 
 .columns-fashioned h2 {
