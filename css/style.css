@@ -176,8 +176,7 @@ aside {
 	padding-bottom:17px;
 	padding-left:8px;
 	padding-right:8px;
-	max-width:246px;
-	min-width:206px;
+	width:180px;
 }
 
 .outlined-drink {
@@ -254,6 +253,7 @@ aside {
 
 .columns-fashioned p {
 	padding-left:38px;
+	padding-bottom:70px;
 }
 
 .shaker {
@@ -285,10 +285,14 @@ aside {
 
 .recipe {
 	float:left;
+	margin-right:38px;
+	margin-bottom:38px;
 }
 
 .recipe-right {
 	float:right;
+	margin-left:38px;
+	margin-bottom:38px;
 }
 
 strong {
