@@ -120,6 +120,7 @@ h3 {
 hr {
 	border:1px solid;
 	border-color:#2CADAD;
+	width:215px;
 }
 
 p {
@@ -256,8 +257,8 @@ aside {
 }
 
 .shaker {
-	max-width:246px;
-	min-width:206px;
+	min-width:196px;
+	max-width:198px;
 	border: 7px solid;
 	border-color:#2CADAD;
 }
