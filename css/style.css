@@ -3,7 +3,7 @@ nav li {
 	font-family:"Abril Text", serif;
 	font-weight: 400;
 	font-style: italic;
-	font-color:#FFF;
+	color:#FFF;
 	font-size:20px;
 	list-style-type:none;
 }
@@ -33,7 +33,6 @@ header {
 	display: grid;
 	grid-template-columns: 40% 60%;
 	margin-top:30px;
-	padding:27px
 	height:80px;
 }
 
@@ -41,7 +40,6 @@ h2 {
 	font-family:"Blazeface", serif;
 	color:#000;
 	font-size:72px;
-	-webkit-column-span: all;
     column-span: all;
 }
 
@@ -63,8 +61,7 @@ h2 {
 	margin:auto;
 }
 
-section {
-	text-align:center;
+.index section {
 	font-size:72px;
 	font-family: "Blazeface", serif;
 	font-weight: 400;
@@ -83,19 +80,22 @@ section {
 }
 
 .index ul {
+	padding-top:65px;
 	display:grid;
 	grid-template-columns:1fr 1fr;
-	line-height:46px;
+	line-height:49px;
+	text-align:left;
+	width:70%;
 	margin:auto;
-	padding:0 90px;
 }
 
-.index article {
+.index nav {
 	margin:auto;
-	padding-top:65px;
-	text-align:left;
-	margin-left:270px;
-	width:80%;
+}
+
+.index nav li{
+	width:210px;
+	margin:auto;
 }
 
 @font-face {
@@ -131,16 +131,10 @@ hr {
 
 p {
 	font-family:"Abril Text", serif;
-	font-weight:400
-	font-size:14px;
+	font-weight:400;
+	font-size:16px;
 	line-height:18px;
 	letter-spacing:0.5px;
-}
-
-.fashion {
-	padding-left:100px;
-	padding-top:71px;
-	padding-right:134px;
 }
 
 .sling {
@@ -153,6 +147,8 @@ p {
 	padding-right:100px;
 	padding-bottom:71px;
 	margin-top:-188px;
+	display: inline-block;
+	position: relative;
 }
 
 .fashion {
@@ -183,15 +179,24 @@ aside {
 	width:180px;
 }
 
-.outlined-drink {
-	border:7px solid;
-	border-color:#2CADAD;
-	padding:16px;
+.outline {
+	outline:7px solid;
+	outline-color:#2CADAD;
+	outline-offset:-20px;
+	padding-top:32px;
+	padding-left:32px;
+	max-width:100%; 
+	min-width:60%;
+}
+
+.scale {
+	max-width:100%; 
+	min-width:60%;
 }
 
 .columns {
 	display:grid;
-	grid-template-columns: 1fr 1.5fr 2fr;
+	grid-template-columns: 0.75fr 1.5fr 2fr;
 	grid-gap:30px;
 	padding-left:90px;
 }
@@ -263,9 +268,6 @@ aside {
 	max-width:198px;
 	border: 7px solid;
 	border-color:#2CADAD;
-}
-
-.sidecar {
 }
 
 .daiquiri {
