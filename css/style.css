@@ -57,18 +57,21 @@ h2 {
 .index {
 	background-color:#003B45;
 	background-image:url(../images/indexbg.png);
-	margin:auto;
-	margin-top:266px;
+	padding-top:269px;
 	text-align:center;
+	width:100%;
+	margin:auto;
 }
 
-.index h1 {
+section {
 	text-align:center;
 	font-size:72px;
 	font-family: "Blazeface", serif;
 	font-weight: 400;
 	font-style: normal;
 	color:#FFF;
+	background-color:#003B45;
+	padding:5px;
 }
 
 .index ul {
@@ -80,16 +83,13 @@ h2 {
 	font-size:30px;
 }
 
-.index header {
-	display:block;
-	margin:auto;
+.index footer {
+	margin-top:260px;
 }
 
 .index nav ul {
 	display:grid;
 	grid-template-columns:1fr 1fr;
-	margin:auto;
-	width:630px;
 }
 
 @font-face {
@@ -137,8 +137,8 @@ p {
 	padding-right:134px;
 }
 
-.right {
-	text-align:right;
+.left {
+	text-align:left;
 }
 
 .sling {
