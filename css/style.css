@@ -205,6 +205,8 @@ aside {
 	margin-left:90px;
 	margin-right:90px;
 	width:80%;
+	padding-top:30px;
+	padding-bottom:30px;
 }
 
 .columns-dai aside {
@@ -216,10 +218,6 @@ aside {
 	padding-bottom:70px;
 }
 
-.columns-dai h2 {
-	padding-top:30px
-}
-
 .dai-recipe {
 	margin-left:-110px;
 	z-index:5;
@@ -227,15 +225,16 @@ aside {
 
 .columns-car {
 	display:grid;
-	grid-template-columns: 2fr 1fr 1fr;
+	grid-template-columns: 2fr 0.5fr 1fr;
 	grid-gap:40px;
 	padding-left:90px;
 	margin-right:90px;
 	width:90%;
+	padding-top:30px;
+	padding-bottom:30px;
 }
 
 .columns-car h2 {
-	padding-top:30px;
 	padding-bottom:55px;
 }
 
@@ -268,7 +267,6 @@ aside {
 }
 
 .sidecar {
-	padding-top:45px;
 }
 
 .daiquiri {
@@ -280,19 +278,19 @@ aside {
 
 .vertical {
 	border-left:7px solid;
-	border-color:#2CADAD
+	border-color:#2CADAD;
 }
 
 .recipe {
 	float:left;
-	margin-right:38px;
-	margin-bottom:38px;
+	margin-right:35px;
+	margin-bottom:30px;
 }
 
 .recipe-right {
 	float:right;
-	margin-left:38px;
-	margin-bottom:38px;
+	margin-left:35px;
+	margin-bottom:30px;
 }
 
 strong {
@@ -305,4 +303,5 @@ strong {
 .plus {
 	text-align:center;
 	font-size:45px;
+	padding:0 90px;
 }
