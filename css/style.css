@@ -149,6 +149,7 @@ p {
 	padding-top:71px;
 	padding-right:100px;
 	padding-bottom:71px;
+	margin-top:-188px;
 }
 
 .fashion {
@@ -251,15 +252,10 @@ aside {
 }
 
 .columns-fashioned p {
-	padding-left:38px;
 	padding-bottom:70px;
 }
 
 .shaker {
-	padding-top:17px;
-	padding-bottom:17px;
-	padding-left:8px;
-	padding-right:8px;
 	max-width:246px;
 	min-width:206px;
 	border: 7px solid;
