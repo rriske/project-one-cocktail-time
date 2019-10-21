@@ -234,8 +234,8 @@ aside {
 
 .columns-car {
 	display:grid;
-	grid-template-columns: 2fr 0.5fr 1fr;
-	grid-gap:40px;
+	grid-template-columns: 2fr 0.5fr 0.75fr;
+	grid-gap:15px;
 	padding-left:90px;
 	margin-right:90px;
 	width:90%;
