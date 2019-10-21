@@ -74,11 +74,6 @@ section {
 	padding:5px;
 }
 
-.index ul {
-	text-align:left;
-	line-height:46px;
-}
-
 .index a {
 	font-size:30px;
 }
@@ -87,9 +82,20 @@ section {
 	margin-top:260px;
 }
 
-.index nav ul {
+.index ul {
 	display:grid;
 	grid-template-columns:1fr 1fr;
+	line-height:46px;
+	margin:auto;
+	padding:0 90px;
+}
+
+.index article {
+	margin:auto;
+	padding-top:65px;
+	text-align:left;
+	margin-left:270px;
+	width:80%;
 }
 
 @font-face {
@@ -108,7 +114,7 @@ footer {
 	color:#FFF;
 	width:100%;
 	margin:auto;
-	padding:30px 0;
+	padding:30px 0px;
 }
 
 h3 {
@@ -135,10 +141,6 @@ p {
 	padding-left:100px;
 	padding-top:71px;
 	padding-right:134px;
-}
-
-.left {
-	text-align:left;
 }
 
 .sling {
