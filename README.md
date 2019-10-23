@@ -23,6 +23,12 @@ This is the template repository for the first major project in the Design 341 cl
 
 10. Edit, save, commit, and push your files. Lather, rinse, repeat!
 
+Recipes from:
+The Spruce Eats https://www.thespruceeats.com/classic-cocktails-you-must-try-759886
+Observer https://observer.com/2014/11/through-the-decades-a-brief-history-of-iconic-cocktails-2/
+
+Daiquiri images from:
+The Spruce Eats https://www.thespruceeats.com/classic-daiquiri-recipe-759294
 
 
  

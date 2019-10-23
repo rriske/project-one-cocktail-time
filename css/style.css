@@ -43,6 +43,69 @@ h2 {
     column-span: all;
 }
 
+@font-face {
+	font-family:"Blazeface";
+	src:url(./Ohno_Blazeface-12_Point_Italic.ttf);
+	font-weight:bold;
+}
+
+footer {
+	font-family:"Abril Text",serif;
+	font-weight:400;
+	font-style:italic;
+	font-size:14px;
+	text-align:center;
+	background-color:#003B45;
+	color:#FFF;
+	width:100%;
+	margin:auto;
+	padding:30px 0px;
+}
+
+h3 {
+	font-family:"Blazeface";
+	color:#000;
+	font-size:16px;
+}
+
+p {
+	font-family:"Abril Text", serif;
+	font-weight:400;
+	font-size:16px;
+	line-height:18px;
+	letter-spacing:0.5px;
+}
+
+strong {
+	font-family:"Abril Text";
+	font-weight:800;
+	font-style:italic;
+	font-size:20px;
+}
+
+ul {
+	font-family:"Abril Text";
+	font-weight:400;
+	font-style:italic;
+	font-size:16px;
+}
+
+aside {
+	border: 6.5px solid;
+	border-color:#003B45;
+	padding-top:17px;
+	padding-bottom:17px;
+	padding-left:8px;
+	padding-right:8px;
+	width:180px;
+}
+
+hr {
+	border:1px solid;
+	border-color:#2CADAD;
+	width:215px;
+}
+
 .logo-style {
 	font-family: "Blazeface", serif;
 	font-weight: 400;
@@ -75,10 +138,6 @@ h2 {
 	font-size:30px;
 }
 
-.index footer {
-	margin-top:260px;
-}
-
 .index ul {
 	padding-top:65px;
 	display:grid;
@@ -98,57 +157,18 @@ h2 {
 	margin:auto;
 }
 
-@font-face {
-	font-family:"Blazeface";
-	src:url(./Ohno_Blazeface-12_Point_Italic.ttf);
-	font-weight:bold;
+.index footer {
+	margin-top:260px;
 }
 
-footer {
-	font-family:"Abril Text",serif;
-	font-weight:400;
-	font-style:italic;
-	font-size:14px;
-	text-align:center;
-	background-color:#003B45;
-	color:#FFF;
-	width:100%;
-	margin:auto;
-	padding:30px 0px;
-}
-
-h3 {
-	font-family:"Blazeface";
-	color:#000;
-	font-size:16px;
-}
-
-hr {
-	border:1px solid;
-	border-color:#2CADAD;
-	width:215px;
-}
-
-p {
-	font-family:"Abril Text", serif;
-	font-weight:400;
-	font-size:16px;
-	line-height:18px;
-	letter-spacing:0.5px;
-}
-
-.sling {
-	background-image:url(../images/rainbowmetal.png);
-	background-repeat:no-repeat;
-	background-position:right;
-	background-size:cover;
-	padding-left:100px;
-	padding-top:71px;
-	padding-right:100px;
-	padding-bottom:71px;
-	margin-top:-188px;
-	display: inline-block;
-	position: relative;
+.outline {
+	outline:7px solid;
+	outline-color:#2CADAD;
+	outline-offset:-20px;
+	padding-top:32px;
+	padding-left:32px;
+	max-width:100%; 
+	min-width:60%;
 }
 
 .fashion {
@@ -162,31 +182,20 @@ p {
 	padding-bottom:71px;
 }
 
-ul {
-	font-family:"Abril Text";
-	font-weight:400;
-	font-style:italic;
-	font-size:16px;
+.columns-fashioned {
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap:40px;
+	margin-right:90px;
 }
 
-aside {
-	border: 6.5px solid;
-	border-color:#003B45;
-	padding-top:17px;
-	padding-bottom:17px;
-	padding-left:8px;
-	padding-right:8px;
-	width:180px;
+.columns-fashioned h2 {
+	padding-top:30px;
+	padding-bottom:55px;
 }
 
-.outline {
-	outline:7px solid;
-	outline-color:#2CADAD;
-	outline-offset:-20px;
-	padding-top:32px;
-	padding-left:32px;
-	max-width:100%; 
-	min-width:60%;
+.columns-fashioned p {
+	padding-bottom:70px;
 }
 
 .scale {
@@ -194,17 +203,42 @@ aside {
 	min-width:60%;
 }
 
-.columns {
-	display:grid;
-	grid-template-columns: 0.75fr 1.5fr 2fr;
-	grid-gap:30px;
-	padding-left:90px;
+.recipe {
+	float:left;
+	margin-right:35px;
+	margin-bottom:30px;
 }
 
-.columns h2 {
+.columns-car {
+	display:grid;
+	grid-template-columns: 2fr 0.5fr 0.75fr;
+	grid-gap:15px;
+	padding-left:90px;
+	margin-right:90px;
+	width:90%;
 	padding-top:30px;
+	padding-bottom:30px;
+}
+
+.columns-car h2 {
 	padding-bottom:55px;
-	grid-column: 1 / -1;
+}
+
+.plus {
+	text-align:center;
+	font-size:45px;
+	padding:0 90px;
+}
+
+.recipe-right {
+	float:right;
+	margin-left:35px;
+	margin-bottom:30px;
+}
+
+.vertical {
+	border-left:7px solid;
+	border-color:#2CADAD;
 }
 
 .columns-dai {
@@ -232,44 +266,6 @@ aside {
 	z-index:5;
 }
 
-.columns-car {
-	display:grid;
-	grid-template-columns: 2fr 0.5fr 0.75fr;
-	grid-gap:15px;
-	padding-left:90px;
-	margin-right:90px;
-	width:90%;
-	padding-top:30px;
-	padding-bottom:30px;
-}
-
-.columns-car h2 {
-	padding-bottom:55px;
-}
-
-.columns-fashioned {
-	display:grid;
-	grid-template-columns: 1fr 1fr;
-	grid-gap:40px;
-	margin-right:90px;
-}
-
-.columns-fashioned h2 {
-	padding-top:30px;
-	padding-bottom:55px;
-}
-
-.columns-fashioned p {
-	padding-bottom:70px;
-}
-
-.shaker {
-	min-width:196px;
-	max-width:198px;
-	border: 7px solid;
-	border-color:#2CADAD;
-}
-
 .daiquiri {
 	margin-top:auto;
 	margin-bottom:auto;
@@ -277,32 +273,36 @@ aside {
 	padding:40px 20px;
 }
 
-.vertical {
-	border-left:7px solid;
+.sling {
+	background-image:url(../images/rainbowmetal.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	background-size:cover;
+	padding-left:100px;
+	padding-top:71px;
+	padding-right:100px;
+	padding-bottom:71px;
+	margin-top:-188px;
+	display: inline-block;
+	position: relative;
+}
+
+.columns {
+	display:grid;
+	grid-template-columns: 0.75fr 1.5fr 2fr;
+	grid-gap:30px;
+	padding-left:90px;
+}
+
+.columns h2 {
+	padding-top:30px;
+	padding-bottom:55px;
+	grid-column: 1 / -1;
+}
+
+.shaker {
+	min-width:196px;
+	max-width:198px;
+	border: 7px solid;
 	border-color:#2CADAD;
-}
-
-.recipe {
-	float:left;
-	margin-right:35px;
-	margin-bottom:30px;
-}
-
-.recipe-right {
-	float:right;
-	margin-left:35px;
-	margin-bottom:30px;
-}
-
-strong {
-	font-family:"Abril Text";
-	font-weight:800;
-	font-style:italic;
-	font-size:20px;
-}
-
-.plus {
-	text-align:center;
-	font-size:45px;
-	padding:0 90px;
 }
